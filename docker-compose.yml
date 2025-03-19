@@ -3,7 +3,7 @@ version: '3.8'
 services:
   bot:
     build: .
-    container_name: tg_bot
+    container_name: construct_bot
     #volumes:
     #  - ./data:/app/data
     restart: on-failure
