@@ -1,5 +1,3 @@
-import asyncio
-import traceback
 from enum import Enum
 
 from aiogram import Bot
@@ -11,7 +9,6 @@ from aiogram.types import (
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 from bot.clients.init_clients import storage_client
-from bot.log import logger
 from config import Config
 
 
